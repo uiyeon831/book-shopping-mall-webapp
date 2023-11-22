@@ -1,6 +1,7 @@
 //카테고리 사이드바
 
 import React from "react";
+import './ProductCategory.css';
 
 class Category extends React.Component{
   constructor(){
@@ -8,13 +9,15 @@ class Category extends React.Component{
   }
   render() {
     return (
-      <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-        <li>4</li>
-        <li>5</li>
-      </ul>
+      <div className="category">
+        <ul>
+          <li>소설</li>
+          <li>시/에세이</li>
+          <li>인문</li>
+          <li>가정/육아</li>
+          <li>요리</li>
+        </ul>
+      </div>
     )
   }
 }
