@@ -11,7 +11,7 @@ class MainPage extends React.Component {
   }
   render(){
     return (
-      <main>
+      <div className="mainpage">
         <div className="container">
           <div className="title">베스트 셀러</div>
           <div className="bookContainer">
@@ -26,7 +26,7 @@ class MainPage extends React.Component {
             <img src={RightArrowIcon} />
           </div>
         </div>
-    </main>
+    </div>
     );
   }
 }
