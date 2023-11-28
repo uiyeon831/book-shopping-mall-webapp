@@ -8,16 +8,6 @@ const HeaderStyle = styled.div`
   background-color: white;
 `
 
-const Logo = styled.p`
-  width: 10%;
-  font-size: 28px;
-  font-weight: 600;
-  text-align: left;
-  &:hover {
-    cursor: pointer;
-  }
-`
-
 const HeaderLogoDiv = styled.div`
   width: 22rem;
   height: 1.5rem;
@@ -48,4 +38,4 @@ const HeaderP = styled.p`
   }
 `
 
-export {HeaderStyle, Logo, HeaderLogoDiv, HeaderInput, PageRoute, HeaderP};
+export {HeaderStyle, HeaderLogoDiv, HeaderInput, PageRoute, HeaderP};
