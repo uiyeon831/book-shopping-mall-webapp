@@ -72,36 +72,6 @@ const InputDiv = styled.div`
   gap: 5px;
 `
 
-const LoginInput = styled.input`
-  width: 270px;
-  height: 40px;
-  border: 1px solid black;
-  border-radius: 10px;
-  margin: 0;
-  padding: 0 15px;
-`
-
-const ShowMessage = styled.div`
-  width: 280px;
-  height: 15px;
-  line-height: 15px;
-  font-size: 12px;
-  padding: 0 10px;
-  color: red;
-  display: block;
-`
-
-const LoginBtn = styled.button`
-  width: 300px;
-  height: 55px;
-  border: 1px solid black;
-  border-radius: 10px;
-  margin-top: 10px;
-  &:hover{
-    cursor: pointer;
-  }
-`
-
 const JoinPTag = styled.p`
   width: 270px;
   color: black;
@@ -110,4 +80,4 @@ const JoinPTag = styled.p`
   padding-top: 5px;
 `
 
-export {LoginContainer, LoginForm, WhetherMember,  MemberLogin, NonMemberLogin, LoginInputContainer, InputDiv, LoginInput, ShowMessage, LoginBtn, JoinPTag};
+export {LoginContainer, LoginForm, WhetherMember,  MemberLogin, NonMemberLogin, LoginInputContainer, InputDiv, JoinPTag};
