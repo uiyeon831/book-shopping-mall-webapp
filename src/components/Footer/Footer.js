@@ -1,7 +1,7 @@
 //footer
 
 import React from "react";
-import './Footer.css';
+import {FooterBox} from './style';
 
 class Footer extends React.Component {
   constructor(){
@@ -9,9 +9,9 @@ class Footer extends React.Component {
   }
   render() {
     return (
-      <div className="footer">
+      <FooterBox>
         footer
-      </div>
+      </FooterBox>
     )
   }
 }

@@ -1,9 +1,9 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 
-import ProductLayout from './components/ProductLayout/index';
-import AdminLayout from './components/AdminLayout/index';
-import MypageLayout from './components/MypageLayout/index';
+import ProductLayout from './components/Layout/ProductLayout/index';
+import AdminLayout from './components/Layout/AdminLayout/index';
+import MypageLayout from './components/Layout/MypageLayout/index';
 import MainPage from './pages/MainPage';
 import AdminCategory from './pages/Admin/AdminCategory/AdminCategory';
 import AdminOrder from './pages/Admin/AdminOrder/AdminOrder';

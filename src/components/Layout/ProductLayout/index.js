@@ -1,7 +1,7 @@
 import React from "react";
-import Header from '../Header/Header';
-import AdminCategory from '../AdminCategory/AdminCategory';
-import Footer from '../Footer/Footer';
+import ProductHeader from '../../Header/ProductHeader';
+import ProductCategory from '../../Category/ProductCategory/ProductCategory';
+import Footer from '../../Footer/Footer';
 import { Link, Outlet } from 'react-router-dom';
 
 class ProductLayout extends React.Component {
@@ -11,8 +11,8 @@ class ProductLayout extends React.Component {
   render(){
     return (
       <div>
-        <Header />
-        <AdminCategory />
+        <ProductHeader />
+        <ProductCategory />
         <Outlet />
         <Footer /> 
       </div>
