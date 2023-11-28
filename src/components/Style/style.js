@@ -14,4 +14,34 @@ const ATag = styled.a`
   text-decoration: none;
 `
 
-export {Logo, ATag};
+const Input = styled.input`
+  width: 270px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 0;
+  padding: 0 15px;
+`
+
+const ShowMessage = styled.div`
+  width: 280px;
+  height: 15px;
+  line-height: 15px;
+  font-size: 12px;
+  padding: 0 10px;
+  color: red;
+  display: block;
+`
+
+const LoginBtn = styled.button`
+  width: 300px;
+  height: 55px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 10px;
+  &:hover{
+    cursor: pointer;
+  }
+`
+
+export {Logo, ATag, Input, ShowMessage, LoginBtn};

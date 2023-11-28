@@ -1,8 +1,8 @@
 //로그인 페이지
 
 import React from "react";
-import {Logo, ATag} from '../../../components/Style/style';
-import {LoginContainer, LoginForm, WhetherMember, MemberLogin,  LoginInputContainer, InputDiv, LoginInput, ShowMessage, LoginBtn, JoinPTag} from './style';
+import {Logo, ATag, Input, ShowMessage, LoginBtn} from '../../../components/Style/style';
+import {LoginContainer, LoginForm, WhetherMember, MemberLogin,  LoginInputContainer, InputDiv, JoinPTag} from './style';
 
 class Login extends React.Component {
   constructor(){
@@ -20,11 +20,11 @@ class Login extends React.Component {
           <ShowMessage></ShowMessage>
           <LoginInputContainer>
             <InputDiv>
-              <LoginInput type="text" placeholder="이메일" />
+              <Input type="text" placeholder="이메일" />
               <ShowMessage></ShowMessage>
             </InputDiv>
             <InputDiv>
-              <LoginInput type="password" placeholder="비밀번호" />
+              <Input type="password" placeholder="비밀번호" />
               <ShowMessage></ShowMessage>
             </InputDiv>
           </LoginInputContainer>
