@@ -2,6 +2,7 @@
 
 import React from "react";
 import './MainPage.css';
+import {MainPageBox, MainContainer, MainTitle, MainBookContainer, ArrowIcon, MainBookBox, Book} from './style';
 import LeftArrowIcon from '../assets/image/left_arrow_icon.png';
 import RightArrowIcon from '../assets/image/right_arrow_icon.png';
 
@@ -11,22 +12,22 @@ class MainPage extends React.Component {
   }
   render(){
     return (
-      <div className="mainpage">
-        <div className="container">
-          <div className="title">베스트 셀러</div>
-          <div className="bookContainer">
-            <img src={LeftArrowIcon} />
-            <div className="bookBox">
-              <div className="book"></div>
-              <div className="book"></div>
-              <div className="book"></div>
-              <div className="book"></div>
-              <div className="book"></div>
-            </div>
-            <img src={RightArrowIcon} />
-          </div>
-        </div>
-    </div>
+      <MainPageBox>
+        <MainContainer>
+          <MainTitle>베스트 셀러</MainTitle>
+          <MainBookContainer>
+            <ArrowIcon src={LeftArrowIcon} />
+            <MainBookBox>
+              <Book></Book>
+              <Book></Book>
+              <Book></Book>
+              <Book></Book>
+              <Book></Book>
+            </MainBookBox>
+            <ArrowIcon src={RightArrowIcon} />
+          </MainBookContainer>
+        </MainContainer>
+    </MainPageBox>
     );
   }
 }
