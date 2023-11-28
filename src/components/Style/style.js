@@ -23,6 +23,17 @@ const Input = styled.input`
   padding: 0 15px;
 `
 
+const NumberInput = styled(Input)`
+  &::-webkit-outer-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+  }
+  &::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+  } 
+`
+
 const ShowMessage = styled.div`
   width: 280px;
   height: 15px;
@@ -44,4 +55,4 @@ const LoginBtn = styled.button`
   }
 `
 
-export {Logo, ATag, Input, ShowMessage, LoginBtn};
+export {Logo, ATag, Input, ShowMessage, LoginBtn, NumberInput};
