@@ -1,16 +1,5 @@
 import styled from "styled-components";
 
-const MainPageBox = styled.div`
-  height : auto;
-  min-height: 100vh;
-  margin-top: 70px;
-  padding-bottom: 2.5rem;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-`
-
 const MainContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -56,4 +45,4 @@ const Book = styled.div`
   }
 `
 
-export {MainPageBox, MainContainer, MainTitle, MainBookContainer, ArrowIcon, MainBookBox, Book};
+export {MainContainer, MainTitle, MainBookContainer, ArrowIcon, MainBookBox, Book};
