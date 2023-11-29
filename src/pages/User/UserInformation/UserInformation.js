@@ -1,6 +1,8 @@
 //사용자 정보 조회 페이지
 
 import React from "react";
+import {Container, Title} from '../../../components/Style/style';
+import {} from './style';
 
 class UserInformation extends React.Component {
   constructor(){
@@ -8,9 +10,9 @@ class UserInformation extends React.Component {
   }
   render(){
     return (
-      <div>
-        사용자 정보 페이지입니다.
-      </div>
+      <Container>
+        <Title>사용자 정보</Title>
+      </Container>
     );
   }
 }

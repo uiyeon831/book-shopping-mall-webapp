@@ -1,5 +1,16 @@
 import styled from "styled-components";
 
+const Container = styled.div`
+  height : auto;
+  min-height: 100vh;
+  margin-top: 70px;
+  padding-bottom: 2.5rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`
+
 const Logo = styled.p`
   width: 70px;
   font-size: 28px;
@@ -55,4 +66,9 @@ const LoginBtn = styled.button`
   }
 `
 
-export {Logo, ATag, Input, ShowMessage, LoginBtn, NumberInput};
+const Title = styled.p`
+  font-size: 20px;
+  font-weight: 600;
+`
+
+export {Container, Logo, ATag, Input, ShowMessage, LoginBtn, NumberInput, Title};
