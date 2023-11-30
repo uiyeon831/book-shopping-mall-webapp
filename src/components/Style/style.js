@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Container = styled.div`
   height : auto;
   min-height: 100vh;
-  margin-top: 70px;
+  margin-top: 110px;
   padding-bottom: 2.5rem;
 
   display: flex;
@@ -71,4 +71,9 @@ const Title = styled.p`
   font-weight: 600;
 `
 
-export {Container, Logo, ATag, Input, ShowMessage, LoginBtn, NumberInput, Title};
+
+const TitleMargin = styled(Title)`
+  margin-top: 50px;
+`
+
+export {Container, Logo, ATag, Input, ShowMessage, LoginBtn, NumberInput, Title, TitleMargin};

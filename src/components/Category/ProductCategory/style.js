@@ -4,7 +4,7 @@ const ProductCategoryBox = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 70px;
+  margin-top: 150px;
 `
 
 const ProductCategoryUl = styled.ul`
