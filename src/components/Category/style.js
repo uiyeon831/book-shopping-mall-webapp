@@ -8,8 +8,7 @@ const Menu = styled.ul`
   min-width: 180px;
   max-width: 180px;
   text-align: center;
-  margin-left: 35px;
-  position: fixed;
+  margin-left: 20px;
 `
 
 const MenuLi = styled.li`
@@ -30,7 +29,7 @@ const MenuLi = styled.li`
 const MenuTitle = styled.p`
   height: 30px;
   line-height: 30px;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 2px;
   padding: 10px;
   border-bottom: 2px solid #3c3c3c;

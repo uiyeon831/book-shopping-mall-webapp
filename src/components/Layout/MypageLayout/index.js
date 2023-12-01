@@ -1,8 +1,10 @@
+import { Link, Outlet } from 'react-router-dom';
 import React from "react";
 import Header from '../../Header/Header';
 import MypageCategory from '../../Category/MypageCategory';
 import Footer from '../../Footer/Footer';
-import { Link, Outlet } from 'react-router-dom';
+import { DivMain, CenterDiv } from '../LayoutStyle';
+
 
 class MainPageLayout extends React.Component {
   constructor(){
@@ -10,14 +12,19 @@ class MainPageLayout extends React.Component {
   }
   render(){
     return (
-      <div>
+      <DivMain>
         <Header />
-        <MypageCategory />
-        <Outlet />
+        <CenterDiv>
+          <MypageCategory />
+          <Outlet />
+        </CenterDiv>
         <Footer /> 
-      </div>
+      </DivMain>
     )
   }
 }
+
+
+
 
 export default MainPageLayout;
