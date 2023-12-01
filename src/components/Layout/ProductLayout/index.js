@@ -1,8 +1,9 @@
+import { Link, Outlet } from 'react-router-dom';
 import React from "react";
 import ProductHeader from '../../Header/ProductHeader';
-import ProductCategory from '../../Category/ProductCategory/ProductCategory';
+import ProductCategory from '../../Category/ProductCategory';
 import Footer from '../../Footer/Footer';
-import { Link, Outlet } from 'react-router-dom';
+import { DivMain, CenterDiv } from '../LayoutStyle';
 
 class ProductLayout extends React.Component {
   constructor(){
@@ -10,12 +11,14 @@ class ProductLayout extends React.Component {
   }
   render(){
     return (
-      <div>
+      <DivMain>
         <ProductHeader />
-        <ProductCategory />
-        <Outlet />
+        <CenterDiv>
+          <ProductCategory />
+          <Outlet />
+        </CenterDiv>
         <Footer /> 
-      </div>
+      </DivMain>
     )
   }
 }

@@ -3,7 +3,7 @@
 import React from "react";
 import {ProductCategoryBox, ProductCategoryUl, CategoryLi} from './style';
 
-class Category extends React.Component{
+class MainCategory extends React.Component{
   constructor(){
     super();
   }
@@ -22,4 +22,4 @@ class Category extends React.Component{
   }
 }
 
-export default Category;
+export default MainCategory;
