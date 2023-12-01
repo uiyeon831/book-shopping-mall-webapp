@@ -1,53 +1,37 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 
-import ProductLayout from './components/Layout/ProductLayout/index';
-import AdminLayout from './components/Layout/AdminLayout/index';
-import MypageLayout from './components/Layout/MypageLayout/index';
-import MainPage from './pages/MainPage';
-import AdminCategory from './pages/Admin/AdminCategory/AdminCategory';
-import AdminOrder from './pages/Admin/AdminOrder/AdminOrder';
-import AdminProduct from './pages/Admin/AdminProduct/AdminProduct';
-import AdminUser from './pages/Admin/AdminUser/AdminUser';
-import Cart from './pages/Cart/Cart';
-import OrderCheck from './pages/Order/OrderCheck/OrderCheck';
-import OrderCompleted from './pages/Order/OrderCompleted/OderCompleted';
-import Ordering from './pages/Order/Ordering/Ordering';
-import ProductDetail from './pages/Product/ProductDetail/ProductDetail';
-import ProductsByCategory from './pages/Product/ProductsByCategory/ProductsByCategory';
-import ChangeUserInformation from './pages/User/ChangeUserInformation/ChangeUserInformation';
-import Login from './pages/User/Login/Login';
-import Join from './pages/User/Join/Join';
-import UserInformation from './pages/User/UserInformation/UserInformation';
-
-
+import * as routerPath from './pages/index';
 
 function App() {
   return (
     <Routes>
-      <Route path='/' element={<ProductLayout />}>
-        <Route path='/' element={<MainPage />} />
-        <Route path='/product' element={<ProductsByCategory />} />
-        <Route path='/product/detail' element={<ProductDetail />} />
+      <Route path='/' element={<routerPath.MainLayout />}>
+        <Route path='/' element={<routerPath.MainPage />} />
       </Route>
 
-      <Route path='/login' element={<Login />} />
-      <Route path='/join' element={<Join />} />
-      <Route path='/ordering' element={<Ordering />} />
-      <Route path='/orderCompleted' element={<OrderCompleted />} />
-
-      <Route path='/mypage' element={<MypageLayout />}>
-        <Route path='/mypage' element={<UserInformation />} />
-        <Route path='/mypage/changeInformation' element={<ChangeUserInformation />} />
-        <Route path='/mypage/cart' element={<Cart />} />
-        <Route path='/mypage/orderCheck' element={<OrderCheck />} />
+      <Route path='/product' element={<routerPath.ProductLayout />}>
+        <Route path='/product' element={<routerPath.ProductByCategory />} />
+        <Route path='/product/detail' element={<routerPath.ProductDetail />} />
       </Route>
 
-      <Route path='/admin' element={<AdminLayout />}>
-        <Route path='/admin' element={<AdminProduct />} />
-        <Route path='/admin/category' element={<AdminCategory />} />
-        <Route path='/admin/user' element={<AdminUser />} />
-        <Route path='/admin/order' element={<AdminOrder />} />
+      <Route path='/login' element={<routerPath.Login />} />
+      <Route path='/join' element={<routerPath.Join />} />
+      <Route path='/ordering' element={<routerPath.Ordering />} />
+      <Route path='/orderCompleted' element={<routerPath.OrderCompleted />} />
+
+      <Route path='/mypage' element={<routerPath.MypageLayout />}>
+        <Route path='/mypage' element={<routerPath.UserInformation />} />
+        <Route path='/mypage/changeInformation' element={<routerPath.ChangeUserInformation />} />
+        <Route path='/mypage/cart' element={<routerPath.Cart />} />
+        <Route path='/mypage/orderCheck' element={<routerPath.OrderCheck />} />
+      </Route>
+
+      <Route path='/admin' element={<routerPath.AdminLayout />}>
+        <Route path='/admin' element={<routerPath.AdminProduct />} />
+        <Route path='/admin/category' element={<routerPath.AdminCategory />} />
+        <Route path='/admin/user' element={<routerPath.AdminUser />} />
+        <Route path='/admin/order' element={<routerPath.AdminOrder />} />
       </Route>
 
     </Routes>

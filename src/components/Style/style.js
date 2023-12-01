@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 const Container = styled.div`
+  width: 100%;
   height : auto;
   min-height: 100vh;
-  margin-top: 110px;
+  margin-top: 30px;
   padding-bottom: 2.5rem;
 
   display: flex;
