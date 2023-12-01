@@ -1,6 +1,13 @@
 import styled from "styled-components";
 import {LoginBtn, Title} from '../../../components/Style/style';
 
+const InfoContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`
+
 const Information = styled.div`
   display: flex;
   flex-direction: column;
@@ -8,6 +15,7 @@ const Information = styled.div`
   margin-top: 50px;
   padding: 40px 20px;
   border-top: 1px solid #b0b0b0;
+
 `
 
 const UserInformationBox = styled.div`
@@ -51,4 +59,4 @@ const WithdrawalBtn = styled.p`
   }
 `
 
-export {Information, UserInformationBox, UserPTag, ModifyBtn, WithdrawalBtn, UserInfoBtnBox, AddressContainer};
+export {Information, UserInformationBox, UserPTag, ModifyBtn, WithdrawalBtn, UserInfoBtnBox, AddressContainer, InfoContainer};

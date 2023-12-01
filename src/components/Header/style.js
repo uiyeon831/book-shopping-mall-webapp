@@ -6,10 +6,7 @@ const HeaderStyle = styled.div`
   display: flex;
   justify-content: space-between;
   background-color: white;
-	width: 100%;
-	position: fixed;
-	top: 0;
-	z-index: 100;
+  margin-bottom: 30px;
 `
 
 const HeaderLogoDiv = styled.div`

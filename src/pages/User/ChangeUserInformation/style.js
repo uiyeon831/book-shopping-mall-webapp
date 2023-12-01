@@ -3,7 +3,7 @@ import {JoinForm, InputContainer} from '../Join/style';
 
 const InfoForm = styled(JoinForm)`
   margin-top: 50px;
-  padding: 40px 20px;
+  padding: 40px 50px;
   border-top: 1px solid #b0b0b0;
 `
 
