@@ -1,7 +1,7 @@
 //카테고리 사이드바
 
 import React from "react";
-import {ProductCategoryBox, ProductCategoryUl, CategoryLi} from './style';
+import {ProductCategoryBox, ProductCategoryUl, CategoryLi, CategoryLine} from './style';
 
 class MainCategory extends React.Component{
   constructor(){
@@ -11,6 +11,9 @@ class MainCategory extends React.Component{
     return (
       <ProductCategoryBox>
         <ProductCategoryUl>
+          <CategoryLi>베스트</CategoryLi>
+          <CategoryLi>신간</CategoryLi>
+          <CategoryLine />
           <CategoryLi>소설</CategoryLi>
           <CategoryLi>시/에세이</CategoryLi>
           <CategoryLi>인문</CategoryLi>

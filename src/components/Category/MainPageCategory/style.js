@@ -8,13 +8,14 @@ const ProductCategoryBox = styled.div`
 `
 
 const ProductCategoryUl = styled.ul`
-  width: 50%;
-  height: 120px;
-  border-radius: 10px;
-  background-color: rgb(245, 245, 245);
+  width: 1300px;
+  min-width: 800px;
+  height: 60px;
+  background-color: #f5f5f5;
+  padding: 0 70px;
 
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   gap: 3.5rem;
 `
@@ -25,4 +26,11 @@ const CategoryLi = styled.li`
   }
 `
 
-export {ProductCategoryBox, ProductCategoryUl, CategoryLi};
+const CategoryLine = styled.li`
+  width: 1px;
+  height: 40px;
+  background-color: #8f8f8f;
+  margin: 0 10px;
+`
+
+export {ProductCategoryBox, ProductCategoryUl, CategoryLi, CategoryLine};
