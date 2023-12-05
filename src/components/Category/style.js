@@ -3,8 +3,8 @@ import styled from "styled-components";
 const Menu = styled.ul`
   height: 70vh;
   background-color: #f5f5f5;
-  min-width: 150px;
-  max-width: 150px;
+  min-width: 160px;
+  max-width: 160px;
   margin-left: 20px;
   display: flex;
   flex-direction: column;
@@ -16,7 +16,7 @@ const Menu = styled.ul`
 `
 
 const MenuLi = styled.li`
-  width: 85px;
+  width: 100px;
   height: 20px;
   line-height: 20px;
   letter-spacing: 2px;
@@ -36,7 +36,8 @@ const MenuTitle = styled.p`
   line-height: 30px;
   font-size: 18px;
   letter-spacing: 2px;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
   margin: 0px;
   font-weight: 600;
 `
