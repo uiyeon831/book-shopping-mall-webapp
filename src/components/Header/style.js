@@ -21,6 +21,7 @@ const HeaderInput = styled.input`
   margin: 40px;
   padding: 3px 10px;
   border: 1px solid black;
+  border-radius: 10px;
 `
 
 const PageRoute = styled.div`

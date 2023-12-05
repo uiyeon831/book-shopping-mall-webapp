@@ -30,6 +30,7 @@ const Input = styled.input`
   width: 270px;
   height: 40px;
   border: 1px solid black;
+  border-radius: 10px;
   margin: 0;
   padding: 0 15px;
 `
@@ -59,6 +60,7 @@ const LoginBtn = styled.button`
   width: 300px;
   height: 55px;
   border: 1px solid black;
+  border-radius: 10px;
   margin-top: 10px;
   &:hover{
     cursor: pointer;
