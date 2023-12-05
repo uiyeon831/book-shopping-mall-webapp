@@ -11,8 +11,8 @@ class MypageCategory extends React.Component{
     return (
       <Menu>
         <MenuTitle>My page</MenuTitle>
-        <MenuLi>사용자 정보 조회</MenuLi>
-        <MenuLi>사용자 정보 수정</MenuLi>
+        <MenuLi>내정보</MenuLi>
+        <MenuLi>내정보 수정</MenuLi>
         <MenuLi>장바구니</MenuLi>
         <MenuLi>주문조회</MenuLi>
       </Menu>
