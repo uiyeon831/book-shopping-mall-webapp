@@ -73,7 +73,7 @@ const InputDiv = styled.div`
 `
 
 const JoinPTag = styled.p`
-  width: 270px;
+  width: 290px;
   color: black;
   font-size: 12px;
   text-align: right;
