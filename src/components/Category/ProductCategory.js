@@ -1,7 +1,7 @@
 //카테고리 사이드바
 
 import React from "react";
-import {Menu, MenuLi, MenuTitle} from './style';
+import {Menu, MenuLi, MenuLine} from './style';
 
 class ProductCategory extends React.Component{
   constructor(){
@@ -10,7 +10,9 @@ class ProductCategory extends React.Component{
   render() {
     return (
       <Menu>
-        <MenuTitle>카테고리</MenuTitle>
+        <MenuLi>베스트셀러</MenuLi>
+        <MenuLi>신간</MenuLi>
+        <MenuLine /> 
         <MenuLi>소설</MenuLi>
         <MenuLi>시/에세이</MenuLi>
         <MenuLi>인문</MenuLi>
