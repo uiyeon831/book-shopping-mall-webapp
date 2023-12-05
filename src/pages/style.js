@@ -5,6 +5,7 @@ const MainContainer = styled.div`
   flex-direction: column;
   text-align: justify;
   gap: 2rem;
+  padding-bottom: 70px;
 `
 
 const MainTitle = styled.div`

@@ -16,4 +16,4 @@ class ProductByCategory extends React.Component {
   }
 }
 
-export default ProductByCategory;
+export default ProductByCategory; 

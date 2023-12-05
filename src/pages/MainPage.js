@@ -27,6 +27,34 @@ class MainPage extends React.Component {
             <ArrowIcon src={RightArrowIcon} />
           </MainBookContainer>
         </MainContainer>
+        <MainContainer>
+          <MainTitle>신간</MainTitle>
+          <MainBookContainer>
+            <ArrowIcon src={LeftArrowIcon} />
+            <MainBookBox>
+              <Book></Book>
+              <Book></Book>
+              <Book></Book>
+              <Book></Book>
+              <Book></Book>
+            </MainBookBox>
+            <ArrowIcon src={RightArrowIcon} />
+          </MainBookContainer>
+        </MainContainer>
+        <MainContainer>
+          <MainTitle>추천 도서</MainTitle>
+          <MainBookContainer>
+            <ArrowIcon src={LeftArrowIcon} />
+            <MainBookBox>
+              <Book></Book>
+              <Book></Book>
+              <Book></Book>
+              <Book></Book>
+              <Book></Book>
+            </MainBookBox>
+            <ArrowIcon src={RightArrowIcon} />
+          </MainBookContainer>
+        </MainContainer>
     </Container>
     );
   }
