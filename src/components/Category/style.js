@@ -55,4 +55,4 @@ const MenuLine = styled.div`
   margin: 20px 0;
 `
 
-export {Menu, MenuLi, MenuTitle, MenuLine, MenuMyAdmin};
+export { Menu, MenuLi, MenuTitle, MenuLine, MenuMyAdmin };

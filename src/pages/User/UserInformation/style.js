@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {LoginBtn, Title} from '../../../components/Style/style';
+import { LoginBtn, } from '../../../components/Style/style';
 
 const InfoContainer = styled.div`
   display: flex;
@@ -59,4 +59,4 @@ const WithdrawalBtn = styled.p`
   }
 `
 
-export {Information, UserInformationBox, UserPTag, ModifyBtn, WithdrawalBtn, UserInfoBtnBox, AddressContainer, InfoContainer};
+export { Information, UserInformationBox, UserPTag, ModifyBtn, WithdrawalBtn, UserInfoBtnBox, AddressContainer, InfoContainer };

@@ -39,4 +39,4 @@ const HeaderP = styled.p`
   }
 `
 
-export {HeaderStyle, HeaderLogoDiv, HeaderInput, PageRoute, HeaderP};
+export { HeaderStyle, HeaderLogoDiv, HeaderInput, PageRoute, HeaderP };

@@ -1,8 +1,8 @@
 //로그인 페이지
 
 import React from "react";
-import {Logo, ATag, Input, ShowMessage, LoginBtn} from '../../../components/Style/style';
-import {LoginContainer, LoginForm, WhetherMember, MemberLogin,  LoginInputContainer, InputDiv, JoinPTag} from './style';
+import { Logo, ATag, Input, ShowMessage, LoginBtn } from '../../../components/Style/style';
+import { LoginContainer, LoginForm, WhetherMember, MemberLogin,  LoginInputContainer, InputDiv, JoinPTag } from './style';
 
 class Login extends React.Component {
   constructor(){

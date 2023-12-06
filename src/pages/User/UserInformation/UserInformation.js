@@ -1,8 +1,8 @@
 //사용자 정보 조회 페이지
 
 import React from "react";
-import {Container, TitleMargin} from '../../../components/Style/style';
-import {Information, UserInformationBox, UserPTag, ModifyBtn, WithdrawalBtn, UserInfoBtnBox, AddressContainer, InfoContainer} from './style';
+import { Container, TitleMargin } from '../../../components/Style/style';
+import { Information, UserInformationBox, UserPTag, ModifyBtn, WithdrawalBtn, UserInfoBtnBox, AddressContainer, InfoContainer } from './style';
 
 class UserInformation extends React.Component {
   constructor(){

@@ -1,9 +1,9 @@
 //사용자 정보 수정 페이지
 
 import React from "react";
-import {Input, NumberInput, TitleMargin, Container, ShowMessage} from '../../../components/Style/style';
-import {InputContainer, InputBox, Label, JoinShowMessage, JoinBtn, JoinInput, AddressInput, AddressBtn} from '../Join/style';
-import {InfoForm, InfoBtnBox, InfoInputContainer, InfoPassword} from './style';
+import { Input, NumberInput, TitleMargin, Container, ShowMessage } from '../../../components/Style/style';
+import { InputContainer, InputBox, Label, JoinShowMessage, JoinBtn, JoinInput, AddressInput, AddressBtn } from '../Join/style';
+import { InfoForm, InfoBtnBox, InfoInputContainer, InfoPassword } from './style';
 
 class ChangeUserInformation extends React.Component {
   constructor(){

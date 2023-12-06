@@ -1,8 +1,8 @@
 //메인 페이지
 
 import React from "react";
-import {Container} from '../components/Style/style';
-import {MainContainer, MainTitle, MainBookContainer, ArrowIcon, MainBookBox, Book} from './style';
+import { Container } from '../components/Style/style';
+import { MainContainer, MainTitle, MainBookContainer, ArrowIcon, MainBookBox, Book } from './style';
 import LeftArrowIcon from '../assets/image/left_arrow_icon.png';
 import RightArrowIcon from '../assets/image/right_arrow_icon.png';
 

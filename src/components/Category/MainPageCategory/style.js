@@ -33,4 +33,4 @@ const CategoryLine = styled.li`
   margin: 0 10px;
 `
 
-export {ProductCategoryBox, ProductCategoryUl, CategoryLi, CategoryLine};
+export { ProductCategoryBox, ProductCategoryUl, CategoryLi, CategoryLine };

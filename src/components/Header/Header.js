@@ -1,8 +1,8 @@
 //header
 
 import React from "react";
-import {HeaderStyle, HeaderLogoDiv, PageRoute, HeaderP} from './style';
-import {Logo} from '../Style/style';
+import { HeaderStyle, HeaderLogoDiv, PageRoute, HeaderP } from './style';
+import { Logo } from '../Style/style';
 
 class Header extends React.Component {
   constructor(){

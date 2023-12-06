@@ -46,4 +46,4 @@ const Book = styled.div`
   }
 `
 
-export {MainContainer, MainTitle, MainBookContainer, ArrowIcon, MainBookBox, Book};
+export { MainContainer, MainTitle, MainBookContainer, ArrowIcon, MainBookBox, Book };

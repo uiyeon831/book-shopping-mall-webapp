@@ -1,7 +1,7 @@
 //카테고리 사이드바
 
 import React from "react";
-import {Menu, MenuLi, MenuLine} from './style';
+import { Menu, MenuLi, MenuLine } from './style';
 
 class ProductCategory extends React.Component{
   constructor(){

@@ -1,7 +1,7 @@
 //카테고리 사이드바
 
 import React from "react";
-import {MenuMyAdmin, MenuLi, MenuTitle} from './style';
+import { MenuMyAdmin, MenuLi, MenuTitle } from './style';
 
 class MypageCategory extends React.Component{
   constructor(){
