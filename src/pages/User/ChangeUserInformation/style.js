@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {JoinForm, InputContainer} from '../Join/style';
+import { JoinForm, InputContainer } from '../Join/style';
 
 const InfoForm = styled(JoinForm)`
   margin-top: 50px;
@@ -21,4 +21,4 @@ const InfoInputContainer = styled(InputContainer)`
   gap: 0;
 `
 
-export {InfoForm, InfoBtnBox, InfoPassword, InfoInputContainer};
+export { InfoForm, InfoBtnBox, InfoPassword, InfoInputContainer };

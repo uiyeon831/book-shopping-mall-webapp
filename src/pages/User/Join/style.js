@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {ShowMessage, LoginBtn, Input} from '../../../components/Style/style'
+import { ShowMessage, LoginBtn, Input } from '../../../components/Style/style'
 
 const JoinContainer = styled.div`
   margin-top: 50px;
@@ -57,4 +57,4 @@ const JoinBtn = styled(LoginBtn)`
   margin-top: 30px;
 `
 
-export {JoinContainer, JoinForm, InputContainer, InputBox, Label, JoinShowMessage, JoinBtn, JoinInput, AddressInput, AddressBtn};
+export { JoinContainer, JoinForm, InputContainer, InputBox, Label, JoinShowMessage, JoinBtn, JoinInput, AddressInput, AddressBtn };

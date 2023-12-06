@@ -80,4 +80,4 @@ const JoinPTag = styled.p`
   padding-top: 5px;
 `
 
-export {LoginContainer, LoginForm, WhetherMember,  MemberLogin, NonMemberLogin, LoginInputContainer, InputDiv, JoinPTag};
+export { LoginContainer, LoginForm, WhetherMember,  MemberLogin, NonMemberLogin, LoginInputContainer, InputDiv, JoinPTag };

@@ -1,7 +1,7 @@
 //카테고리 사이드바
 
 import React from "react";
-import {ProductCategoryBox, ProductCategoryUl, CategoryLi, CategoryLine} from './style';
+import { ProductCategoryBox, ProductCategoryUl, CategoryLi, CategoryLine } from './style';
 
 class MainCategory extends React.Component{
   constructor(){

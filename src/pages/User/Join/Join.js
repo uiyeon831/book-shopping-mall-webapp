@@ -1,8 +1,8 @@
 //회원가입 페이지
 
 import React from "react";
-import {Logo, Input, NumberInput} from '../../../components/Style/style'
-import {JoinContainer, JoinForm, InputContainer, InputBox, Label, JoinShowMessage, JoinBtn, JoinInput, AddressInput, AddressBtn} from './style.js'
+import { Logo, Input, NumberInput } from '../../../components/Style/style'
+import { JoinContainer, JoinForm, InputContainer, InputBox, Label, JoinShowMessage, JoinBtn, JoinInput, AddressInput, AddressBtn } from './style.js'
 
 class Join extends React.Component {
   constructor(){

@@ -10,4 +10,4 @@ const FooterBox = styled.div`
   position : relative;
 `
 
-export {FooterBox};
+export { FooterBox };
