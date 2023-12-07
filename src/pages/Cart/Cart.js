@@ -1,6 +1,7 @@
 //장바구니 페이지
 
 import React from "react";
+import { Container } from '../../components/Style/style';
 
 class Cart extends React.Component {
   constructor(){
@@ -8,9 +9,9 @@ class Cart extends React.Component {
   }
   render(){
     return (
-      <div>
+      <Container>
         장바구니 페이지입니다.
-      </div>
+      </Container>
     );
   }
 }

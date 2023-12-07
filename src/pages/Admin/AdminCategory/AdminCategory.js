@@ -1,6 +1,7 @@
 //관리자 카테고리관리 페이지
 
 import React from "react";
+import { Container } from '../../../components/Style/style';
 
 class AdminCategory extends React.Component {
   constructor(){
@@ -8,9 +9,9 @@ class AdminCategory extends React.Component {
   }
   render(){
     return (
-      <div>
+      <Container>
         카테고리관리 페이지입니다.
-      </div>
+      </Container>
     );
   }
 }

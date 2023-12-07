@@ -1,6 +1,7 @@
 //관리자 주문관리 페이지
 
 import React from "react";
+import { Container } from '../../../components/Style/style';
 
 class AdminOrder extends React.Component {
   constructor(){
@@ -8,9 +9,9 @@ class AdminOrder extends React.Component {
   }
   render(){
     return (
-      <div>
+      <Container>
         주문관리 페이지입니다.
-      </div>
+      </Container>
   );
   }
 }

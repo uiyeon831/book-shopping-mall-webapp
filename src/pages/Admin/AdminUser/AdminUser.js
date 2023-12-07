@@ -1,6 +1,7 @@
 //관리자 회원관리 페이지
 
 import React from "react";
+import { Container } from '../../../components/Style/style';
 
 class AdminUser extends React.Component {
   constructor(){
@@ -8,9 +9,9 @@ class AdminUser extends React.Component {
   }
   render(){
     return (
-      <div>
+      <Container>
         회원관리 페이지입니다.
-      </div>
+      </Container>
     );
   }
 }
