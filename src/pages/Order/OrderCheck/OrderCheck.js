@@ -1,6 +1,8 @@
 //주문조회 페이지
 
 import React from "react";
+import { Container } from '../../../components/Style/style';
+
 
 class OrderCheck extends React.Component {
   constructor(){
@@ -8,9 +10,9 @@ class OrderCheck extends React.Component {
   }
   render(){
     return (
-      <div>
+      <Container>
         주문조회 페이지입니다.
-      </div>
+      </Container>
     );
   }
 }
